@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+  <title>About</title>   
+
+  <style>
+    /* Base styles for body element */
+    body {
+      margin: 0;
+      padding: 0;
+      /* Set a fallback background color for non-matching media queries */
+      background-color: #000000;
+    }
+
+    /* Mobile-specific styles (up to 768px) */
+    @media (max-width: 768px) {
+      body {
+        background-image: url("phone.jpg"); /* Replace with your mobile image path */
+        background-repeat: no-repeat;  /* Prevent image tiling */
+        background-size: cover;         /* Scale image to fill viewport (adjust as needed) */
+        background-position: center;    /* Center the image vertically and horizontally */
+      }
+    }
+
+    /* Desktop-specific styles (768px and above) */
+    @media (min-width: 768px) {
+      body {
+        background-image: url("bitmap.jpg"); /* Replace with your desktop image path */
+        background-repeat: no-repeat;  /* Prevent image tiling */
+        background-size: cover;         /* Scale image to fill viewport (adjust as needed) */
+        background-position: ;    /* Center the image vertically and horizontally */
+      }
+    }
+
+    /* Button styles */
+    .button {
+      background-color: #928d8d;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      position: absolute;
+      right: 2rem;
+      top: 0.5rem;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer; /* Add a pointer cursor for better user experience */
+    }
+
+    /* Additional styles for content (optional) */
+    /* Add styles to improve the appearance of content elements (h1, h5, etc.) */
+  </style>
+</head>
+<body>
+  <h1 style=color:aliceblue>_About</h1><br>
+  <P style=color:aliceblue>___________<p>
+  <h4 style=color:aliceblue>_These scripts only made for linux</h4>
+  <h4 style=color:aliceblue>_Dont execute these scripts on other os </h4>
+  <a href="scripts.zip" download="script.zip" class="button">Download</a>
+</body>
+</html>
